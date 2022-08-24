@@ -11,19 +11,18 @@ function App() {
   return (
     <div className="App">
       <h1> hi</h1>
-       {/* <nav className="nav-bar">
-        <Link to="/">
-          <button className = "link-btn" type="button">Home</button></Link> */}
-        {/* <Link to="/find-a-pet">Find a Pet</Link>
-        <Link to="/shelters-and-rescues">Shelters and Rescues</Link> */}
-      {/* </nav> */}
+      <nav className="nav-bar">
+        <Link to="/">Home</Link>
+        <Link to="/find-a-pet">Find a Pet</Link>
+        {/* <Link to="/shelters-and-rescues">Shelters and Rescues</Link> */}
+      </nav>
 
-      {/* <Routes>
-        <Route path="/" element={<Home />}></Route> */}
-        {/* <Route path="/find-a-pet" element={<Pets />}></Route> */}
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/find-a-pet" element={<Pets />}></Route>
         {/* <Route path="/shelters-and-rescues" element={<Rescues/>}></Route> */}
-      {/* </Routes> */}
-      <Pets/>
+      </Routes>
+      <Pets />
       {/* <Footer/> */}
     </div>
   );
